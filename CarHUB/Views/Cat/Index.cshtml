@@ -1,0 +1,13 @@
+﻿@model CatFact
+
+@{
+    ViewData["Title"] = "Random Cat Fact";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h2>Did you know?</h2>
+    <p>@Model.Fact</p>
+    <small>Fact length: @Model.Length characters</small>
+</div>
